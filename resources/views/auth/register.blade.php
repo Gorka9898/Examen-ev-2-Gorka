@@ -61,6 +61,7 @@
 
                                 @error('phone')
                                 <span class="invalid-feedback" role="alert">
+                                    
                                         <strong>{{ $message }}</strong>
                                     </span>
                                 @enderror
@@ -136,13 +137,19 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                            <button type="submit" class="btn btn-primary">
                                     {{ __('Register') }}
                                 </button>
+
+                               
                             </div>
                         </div>
-                    </form>
+                    </form> 
+
                 </div>
+                <button type="submit" method="POST"  class="btn btn-primary">
+                                Easter egg ->  /hey
+                                </button>
             </div>
         </div>
     </div>
