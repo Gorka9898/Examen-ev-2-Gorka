@@ -29,5 +29,11 @@ class AirPlaneSeeder extends Seeder
                 'seats' => random_int(55, 250),
             ]);
         }
+
+        DB::table('airplanes')->insert([
+            'name' => "Volacion_1",
+            'maker' => "People",
+            'seats' => random_int(55, 250),
+        ]);
     }
 }
